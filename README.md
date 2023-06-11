@@ -11,7 +11,10 @@ User can select color for background color gradient and they can save generated 
 - ⚠️ NOTE: App is buggy on mobile browsers. Desktop Browser is recommended.
 ```
 
-# SCREENSHOTS:
+# 🎬 VIDEO:
+## [Click Here to view!](https://drive.google.com/file/d/1pYBR1_CCbP06389iYhLf22E7AAd3UkNM/view?usp=sharing)
+&nbsp;
+# 📸 SCREENSHOTS:
 ![Screenshot 1](screenshots/screenshot1.png?raw=true "Screenshot 1")
 ![Screenshot 2](screenshots/screenshot2.png?raw=true "Screenshot 2")
 ![Screenshot 3](screenshots/screenshot3.png?raw=true "Screenshot 3")
