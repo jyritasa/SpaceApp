@@ -13,6 +13,7 @@ migrate_working_dir/
 #Firebase hosting
 firebase.json
 .firebaserc
+.firebase/
 
 # IntelliJ related
 *.iml
