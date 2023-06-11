@@ -1,0 +1,16 @@
+{
+    "homePageTitle": "AVARUUS",
+    "refresh": "Päivitä",
+    "downloadImage": "Tallenna Kuva",
+    "creatingFile": "Luodaan Tiedosta...",
+    "done": "Valmis!",
+    "changeThemeColor": "Vaihda Väri Teema",
+    "resetThemeValues": "Resetoi Väri Arvot",
+    "imageDownloadError": "Kuvan lataaminen epäonnistui! Kokeile uudelleen myöhemmin.",
+    "infoTitle": "Info",
+    "infoText": "Tämä on applikaatio kuvien luomiseen avaruudesta jossa sattunaisesti luotuja tähtiä ja planeettoja. Sinä voit vaihtaa taustan värigradientin ja lataa luodun taideteoksen!", 
+    "refreshText": "Voit luoda uuden kuvan paimalla oikeassa alakulmassa olevaa päivitä näppäintä.",
+    "menuTitle": "valikko",
+    "menuText": "Pääset valikkoon painamalla vasemmassa yläkulmassa olevaa näppäintä. Siellä voit vaihtaa väri arvoja liukusäätimillä, tallentaa luodun kuvan ja lukea tämän vieatin uudelleen.",
+    "dismiss" : "Sulje"
+}

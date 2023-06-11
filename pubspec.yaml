@@ -1,0 +1,64 @@
+name: space_app
+description: App for creating space images.
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.0.3 <4.0.0'
+dependencies:
+  flutter:
+    sdk: flutter
+  #UI
+  cupertino_icons: ^1.0.2     # Apple owned icons
+  flutter_animate: ^4.1.1+1   # Easy to use prebuilt animations     https://pub.dev/packages/flutter_animate
+  dropdown_button2: ^2.1.3    # Better Customizeable Dropdow nmenu  https://pub.dev/packages/dropdown_button2
+  
+  #State and Local Files
+  riverpod: ^2.3.6            # State managment                     https://pub.dev/packages/riverpod
+  flutter_riverpod: ^2.3.6
+  hive: ^2.2.3                # Native Database                     https://pub.dev/packages/hive
+  hive_flutter: ^1.1.0
+  file_saver: ^0.2.4          # File Saver (for Web)                https://pub.dev/packages/file_saver
+
+  #Dev
+  logger: ^1.4.0              # Better Logger than print()          https://pub.dev/packages/logger
+  flutter_localizations:
+    sdk: flutter
+  intl: any
+  path_provider: ^2.0.15
+  permission_handler: ^10.3.0
+  
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^2.0.0
+
+flutter:
+  uses-material-design: true
+  generate: true #For Generating localization files.
+  assets:
+    - assets/img/
+    - assets/img/en_flag.png
+    - assets/img/fi_flag.png
+    - assets/img/saturn.png
+
+  # To add custom fonts to your application, add a fonts section here,
+  # in this "flutter" section. Each entry in this list should have a
+  # "family" key with the font family name, and a "fonts" key with a
+  # list giving the asset and other descriptors for the font. For
+  # example:
+  # fonts:
+  #   - family: Schyler
+  #     fonts:
+  #       - asset: fonts/Schyler-Regular.ttf
+  #       - asset: fonts/Schyler-Italic.ttf
+  #         style: italic
+  #   - family: Trajan Pro
+  #     fonts:
+  #       - asset: fonts/TrajanPro.ttf
+  #       - asset: fonts/TrajanPro_Bold.ttf
+  #         weight: 700
+  #
+  # For details regarding fonts from package dependencies,
+  # see https://flutter.dev/custom-fonts/#from-packages

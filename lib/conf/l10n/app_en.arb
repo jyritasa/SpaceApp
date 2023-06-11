@@ -1,0 +1,58 @@
+{
+    "homePageTitle": "SPACE",
+    "@homePageTitle": {
+    "description": "Text for the homepage title"
+    },
+    "refresh": "Refresh",
+    "@refresh": {
+    "description": "Tooltip text for Refresh button on the Homepage, also title for refresh section of intro dialog"
+    },
+    "downloadImage": "Download Image",
+    "@downloadImage": {
+    "description": "Button Text for Downloading the canvas as png"
+    },
+    "creatingFile": "Creating File...",
+    "@creatingFile": {
+    "description": "Snackbar text when making png out of canvas is initiated"
+    },
+    "done": "Done!",
+    "@done": {
+    "description": "Snackbar text when canvas is converted into png"
+    },
+    "changeThemeColor": "Change Theme Color",
+    "@changeThemeColor": {
+    "description": "Tile Text for changing theme color"
+    },
+    "resetThemeValues": "Reset Color Values",
+    "@resetThemeValues": {
+    "description": "Snackbar text when canvas is converted into png"
+    },
+    "imageDownloadError": "Unable to Download the image! Please try again later.",
+    "@imageDownloadError": {
+    "description": "Snackbar error message when converting canvas into png fails"
+    },
+    "infoTitle": "Info",
+    "@infoTitle": {
+    "description": "title for info section used in the intro dialog, Text for button to call introduction dialog"
+    },
+    "infoText": "This is an application for generating pictures of space with randomly generated stars and planets. You can set the background gradient color and download the generated work of art!",
+    "@infoText": {
+    "description": "text for info section used in the intro dialog"
+    },
+    "refreshText": "You can generate a new picture by pressing the refresh button located in the bottom right corner.",
+    "@refreshText": {
+    "description": "text for refresh section used in the intro dialog"
+    },
+    "menuTitle": "menu",
+    "@menuTitle": {
+    "description": "title for menu section used in the intro dialog"
+    },
+    "menuText": "You can access menu by pressing the button located at top left. There you can change color values with sliders, save the created image and view this message again.",    
+    "@menuText": {
+    "description": "text for menu section used in the intro dialog"
+    },
+    "dismiss": "dismiss",
+    "@dismiss": {
+    "description": "Text for dismissing a dialog"
+    }
+}
