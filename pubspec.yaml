@@ -19,15 +19,16 @@ dependencies:
   hive: ^2.2.3                # Native Database                     https://pub.dev/packages/hive
   hive_flutter: ^1.1.0
   file_saver: ^0.2.4          # File Saver (for Web)                https://pub.dev/packages/file_saver
+  path_provider: ^2.0.15      # Get platform dir paths              https://pub.dev/packages/path_provider
+  permission_handler: ^10.3.0 # Check and ask for permissions       https://pub.dev/packages/permission_handler
+  
 
   #Dev
   logger: ^1.4.0              # Better Logger than print()          https://pub.dev/packages/logger
   flutter_localizations:
     sdk: flutter
   intl: any
-  path_provider: ^2.0.15
-  permission_handler: ^10.3.0
-  
+
 
 dev_dependencies:
   flutter_test:
