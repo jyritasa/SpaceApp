@@ -30,21 +30,14 @@ class HomePageState extends ConsumerState<HomePage> {
 
   /// Controls the canvas redraw animation.
   ///
-  /// This prevents animation from being replayed when state is set (when b
-  /// ackground color is updated, sliders are moved.)
+  /// This prevents animation from being replayed when state is set (when
+  /// background color is updated, sliders are moved.)
   bool _playAnimation = true;
-  //using mediaquery causes canvas to redraw itself when screensize changes or
-  //parent widget state changes.
-  ///Gets Width and Height of the screen from WidgetsBinding
-  ///
-  ///Returns (w: double, h: double)
+
+  ///MediaQuery for screen width and height Returns (w: double, h: double)
   getCanvasSize() {
-    double width = WidgetsBinding
-            .instance.platformDispatcher.views.first.physicalSize.width /
-        WidgetsBinding.instance.platformDispatcher.views.first.devicePixelRatio;
-    double height = WidgetsBinding
-            .instance.platformDispatcher.views.first.physicalSize.height /
-        WidgetsBinding.instance.platformDispatcher.views.first.devicePixelRatio;
+    final double width = MediaQuery.of(context).size.width;
+    final double height = MediaQuery.of(context).size.height;
     return (w: width, h: height);
   }
 
@@ -62,17 +55,16 @@ class HomePageState extends ConsumerState<HomePage> {
 
   @override
   void initState() {
-    var size = getCanvasSize();
-    if (_stars == null || _planets == null) {
-      _stars = generateStars(size.w, size.h);
-      _planets = generatePlanets(size.w, size.h);
-    }
     super.initState();
   }
 
   @override
   Widget build(BuildContext context) {
     var size = getCanvasSize();
+    if (_stars == null || _planets == null) {
+      _stars = generateStars(size.w, size.h);
+      _planets = generatePlanets(size.w, size.h);
+    }
     WidgetsBinding.instance.addPostFrameCallback((_) {
       SettingsManager().completeSetUp(ref, context);
     });
